@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">Hello World</string>
-    <string name="logga_in">Logga in</string>
-    <string name="l_senord">Lösenord</string>
-    <string name="e_post">E-post</string>
-    <string name="n_sta">Nästa</string>
+    <string name="app_name">PupPulse</string>
+    <string name="log_in">Log in</string>
+    <string name="password">Password</string>
+    <string name="e_mail">E-mail</string>
+    <string name="next">Next</string>
 </resources>
