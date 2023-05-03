@@ -5,4 +5,5 @@
     <string name="password">Lösenord</string>
     <string name="e_mail">E-post</string>
     <string name="next">Nästa</string>
+    <string name="app_menu">App-meny</string>
 </resources>
