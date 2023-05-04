@@ -6,4 +6,10 @@
     <string name="e_mail">E-post</string>
     <string name="next">Nästa</string>
     <string name="app_menu">App-meny</string>
+    <string name="noPulseInput">–</string>
+    <string name="notifications">Aviseringar</string>
+    <string name="statistics">Statistik</string>
+    <string name="profile">Profil</string>
+    <string name="home">Hem</string>
+    <string name="placeholder">Hello blank fragment</string>
 </resources>

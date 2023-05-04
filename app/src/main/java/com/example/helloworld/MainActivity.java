@@ -7,21 +7,16 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.example.helloworld.databinding.ActivityMainBinding;
+
 public class MainActivity extends AppCompatActivity {
 
-    // private Button profileButton; // Get by id!
+    ActivityMainBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-    }
-
-    public void onNextBtnClick (View view) { //TODO: Make it possible to log in to/create an account
-        EditText edtTxtEmail = findViewById(R.id.enterEmail);
-        EditText edtTxtPassword = findViewById(R.id.enterPassword);
-        String userEmail = edtTxtEmail.getText().toString();
-        String userPassword = edtTxtPassword.getText().toString();
-
+        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
     }
 }
