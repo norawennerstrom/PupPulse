@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">Hello World</string>
+    <string name="app_name">PupPulse</string>
+    <string name="log_in">Log in</string>
+    <string name="password">Password</string>
+    <string name="e_mail">E-mail</string>
+    <string name="next">Next</string>
+    <string name="app_menu">App Menu</string>
 </resources>
