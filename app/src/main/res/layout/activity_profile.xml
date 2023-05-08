@@ -53,7 +53,7 @@
             android:layout_marginTop="16dp"
             android:layout_marginEnd="208dp"
             android:layout_marginBottom="49dp"
-            android:text="Button"
+            android:text="back"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/textView"
             app:layout_constraintStart_toStartOf="parent"
@@ -71,7 +71,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
         app:rippleColor="@color/white" />
-
 
     <Button
         android:id="@+id/button4"

@@ -1,7 +1,8 @@
 package com.example.helloworld;
+import android.content.Intent;
+
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.provider.ContactsContract;
 import android.view.View;
@@ -16,14 +17,11 @@ public class ProfileActivity extends AppCompatActivity {
         btn1 =(Button)findViewById(R.id.Backbutton);
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void OnClick(View v){
+            public void onClick(View v){
                 Intent intent=new Intent(ProfileActivity.this, MainActivity.class);
                 startActivity(intent);
             }
 
-
         });
     }
-
-
 }
