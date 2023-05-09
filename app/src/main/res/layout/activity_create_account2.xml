@@ -6,26 +6,33 @@
     android:layout_height="match_parent"
     tools:context=".Create_account">
 
+    <TextView
+        android:id="@+id/skapakonto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="33dp"
+        android:text="Skapa konto"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintBottom_toTopOf="@+id/Hundensnamn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <EditText
         android:id="@+id/namn"
         android:layout_width="414dp"
         android:layout_height="61dp"
         android:layout_below="@id/skapakonto"
+        android:layout_marginTop="29dp"
         android:background="@color/white"
         android:hint="Ditt namn"
-        android:outlineProvider="bounds"
         android:singleLine="false"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="184dp" />
-
-    <TextView
-        android:id="@+id/skapakonto"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Skapa konto"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/skapakonto" />
 
     <EditText
         android:id="@+id/Hundensnamn"
@@ -34,9 +41,29 @@
         android:layout_below="@id/namn"
         android:background="@color/white"
         android:hint="Din hunds namn"
-        android:outlineProvider="bounds"
         android:singleLine="false"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="94dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/namn" />
+
+
+
+
+    <EditText
+        android:id="@+id/Ålder"
+        android:layout_width="414dp"
+        android:layout_height="61dp"
+        android:layout_below="@id/Hundensnamn"
+        android:layout_marginTop="33dp"
+        android:layout_marginBottom="29dp"
+        android:background="@color/white"
+        android:hint="Din hunds ålder"
+        android:singleLine="false"
+        app:layout_constraintBottom_toTopOf="@+id/namn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/skapakonto" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
