@@ -20,30 +20,14 @@
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="256dp"
             android:layout_marginTop="41dp"
-            android:layout_marginEnd="3dp"
             android:layout_marginBottom="40dp"
-            android:text="Charlie"
+            android:text="PupPulse"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
             android:textColor="#FFFFFF"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/imageView"
-            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0" />
-
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="109dp"
-            android:layout_height="59dp"
-            android:layout_marginStart="6dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.964"
-            app:layout_constraintStart_toEndOf="@+id/textView"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.39"
-            app:srcCompat="@drawable/hund" />
+            tools:layout_editor_absoluteX="145dp" />
 
         <Button
             android:id="@+id/Backbutton"
@@ -51,11 +35,9 @@
             android:layout_height="35dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
-            android:layout_marginEnd="208dp"
             android:layout_marginBottom="49dp"
             android:text="back"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/textView"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -66,31 +48,20 @@
         android:layout_height="68dp"
         android:background="@color/white"
         android:text="Inställningar"
-        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintBottom_toTopOf="@+id/skapakontobuttom"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
         app:rippleColor="@color/white" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/skapakontobuttom"
         android:layout_width="414dp"
         android:layout_height="68dp"
         android:background="@color/white"
-        android:text="Konto"
-        app:layout_constraintBottom_toTopOf="@+id/button5"
+        android:text="Skapa konto"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button3" />
-
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="414dp"
-        android:layout_height="68dp"
-        android:background="@color/white"
-        android:text="Logga ut"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button4" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

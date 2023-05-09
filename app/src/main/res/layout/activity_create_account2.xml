@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Create_account">
+
+    <EditText
+        android:id="@+id/namn"
+        android:layout_width="414dp"
+        android:layout_height="61dp"
+        android:layout_below="@id/skapakonto"
+        android:background="@color/white"
+        android:hint="Ditt namn"
+        android:outlineProvider="bounds"
+        android:singleLine="false"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="184dp" />
+
+    <TextView
+        android:id="@+id/skapakonto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skapa konto"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/Hundensnamn"
+        android:layout_width="414dp"
+        android:layout_height="61dp"
+        android:layout_below="@id/namn"
+        android:background="@color/white"
+        android:hint="Din hunds namn"
+        android:outlineProvider="bounds"
+        android:singleLine="false"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="94dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

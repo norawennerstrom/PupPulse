@@ -10,6 +10,7 @@ import android.widget.Button;
 
 public class ProfileActivity extends AppCompatActivity {
     Button btn1;
+    Button btn2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,5 +24,19 @@ public class ProfileActivity extends AppCompatActivity {
             }
 
         });
+
+        btn2=findViewById(R.id.skapakontobuttom);
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+                Intent intent=new Intent(ProfileActivity.this, Create_account.class);
+                startActivity(intent);
+
+            }
+
+        });
+
+
+
     }
 }
