@@ -6,14 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!--<TextView
-        android:id="@+id/currentPulse"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="@string/noPulseInput"
-        android:textSize="48sp" />-->
-
     <FrameLayout
         android:id="@+id/frame_layout"
         android:layout_width="match_parent"

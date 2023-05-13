@@ -6,10 +6,11 @@
     tools:context=".HomeFragment">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/currentPulse"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="HOME"
-        android:textSize="60sp" />
+        android:layout_centerInParent="true"
+        android:text="@string/noPulseInput"
+        android:textSize="48sp" />
 
-</RelativeLayout>
+    </RelativeLayout>

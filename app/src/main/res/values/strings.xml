@@ -10,6 +10,6 @@
     <string name="statistics">Statistics</string>
     <string name="profile">Profile</string>
     <string name="home">Home</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="placeholder">Hello blank fragment</string>
+    <string name="puppulse">PupPulse</string>
+    <string name="back">back</string>
 </resources>
