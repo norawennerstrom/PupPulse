@@ -4,8 +4,6 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentActivity;
-import androidx.fragment.app.FragmentTransaction;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -23,8 +21,8 @@ public class profileFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_profile, container, false);
         //setContentView(R.layout.activity_profile);
-        btn1 =(Button)view.findViewById(R.id.Backbutton);
-        btn1.setOnClickListener(new View.OnClickListener() {
+        btn1 = view.findViewById(R.id.Backbutton);
+        btn1.setOnClickListener(new View.OnClickListener() { // TODO: reset the bottom menu to home when back button is clicked
             @Override
             public void onClick(View v){
                 HomeFragment home = new HomeFragment();

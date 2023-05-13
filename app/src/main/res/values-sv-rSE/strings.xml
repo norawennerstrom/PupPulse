@@ -13,4 +13,6 @@
     <string name="home">Hem</string>
     <string name="puppulse">PupPulse</string>
     <string name="back">tillbaka</string>
+    <string name="settings">Inställningar</string>
+    <string name="create_account">Skapa konto</string>
 </resources>

@@ -50,7 +50,7 @@
         android:layout_width="411dp"
         android:layout_height="68dp"
         android:background="@color/white"
-        android:text="Inställningar"
+        android:text="@string/settings"
         app:layout_constraintBottom_toTopOf="@+id/skapakontobuttom"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -62,7 +62,7 @@
         android:layout_width="414dp"
         android:layout_height="68dp"
         android:background="@color/white"
-        android:text="Skapa konto"
+        android:text="@string/create_account"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button3" />
