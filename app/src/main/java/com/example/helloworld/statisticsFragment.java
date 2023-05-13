@@ -38,7 +38,7 @@ public class statisticsFragment extends Fragment {
         return view;
     }
 
-    private void getData() {
+    private void getData() { // TODO: Add labels to each bar in the chart
         barArraylist = new ArrayList();
         barArraylist.add(new BarEntry(2f, 1));
         barArraylist.add(new BarEntry(3f, 3));
