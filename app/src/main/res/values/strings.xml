@@ -14,4 +14,7 @@
     <string name="back">back</string>
     <string name="settings">Settings</string>
     <string name="create_account">Create Account</string>
+    <string name="your_name">Your name</string>
+    <string name="your_dog_s_name">Your dog\'s name</string>
+    <string name="your_dog_s_age">Your dog\'s age</string>
 </resources>
