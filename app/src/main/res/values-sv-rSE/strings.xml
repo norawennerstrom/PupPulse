@@ -15,4 +15,7 @@
     <string name="back">tillbaka</string>
     <string name="settings">Inställningar</string>
     <string name="create_account">Skapa konto</string>
+    <string name="your_name">Ditt namn</string>
+    <string name="your_dog_s_name">Din hunds namn</string>
+    <string name="your_dog_s_age">Din hunds ålder</string>
 </resources>
