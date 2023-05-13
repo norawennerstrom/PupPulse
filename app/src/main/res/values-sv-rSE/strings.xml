@@ -11,5 +11,8 @@
     <string name="statistics">Statistik</string>
     <string name="profile">Profil</string>
     <string name="home">Hem</string>
-    <string name="placeholder">Hello blank fragment</string>
+    <string name="puppulse">PupPulse</string>
+    <string name="back">tillbaka</string>
+    <string name="settings">Inställningar</string>
+    <string name="create_account">Skapa konto</string>
 </resources>

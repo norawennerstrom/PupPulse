@@ -5,11 +5,9 @@
     android:layout_height="match_parent"
     tools:context=".statisticsFragment">
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="STATISTICS"
-        android:textSize="60sp" />
+    <com.github.mikephil.charting.charts.BarChart
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/barchart"/>
 
 </RelativeLayout>

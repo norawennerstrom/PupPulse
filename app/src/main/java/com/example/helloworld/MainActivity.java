@@ -1,6 +1,7 @@
 package com.example.helloworld;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.NotificationCompat;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
@@ -12,8 +13,14 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
 
 public class MainActivity extends AppCompatActivity {
+    // Notifications
 
-    //ActivityMainBinding binding;
+    private static final String channel_id = "channel_id";
+    private static final String channel_name = "channel_name";
+    private static final String channel_description = "channel_desc";
+
+
+    // Bottom menu
     BottomNavigationView bottomNavigationView;
     HomeFragment home = new HomeFragment();
     notificationsFragment notifications = new notificationsFragment();
@@ -50,6 +57,10 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    private void displayNotification() { // TODO: fix this function or remove it (along with the strings at the top)
+        //NotificationCompat.Builder nBuilder = new NotificationCompat.Builder(this, channel_id).setSmallIcon();
     }
 
 }

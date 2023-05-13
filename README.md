@@ -1,6 +1,3 @@
 # PupPulse
 
-Ett nytt repository för IPP-grupp 17.
-hejhej
-TRDFGHGHIUKNOI
-
+Repository för IPP-grupp 17:s app "PupPulse".
