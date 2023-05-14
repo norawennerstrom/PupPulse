@@ -1,6 +1,6 @@
 
 <TextView
-    android:id="@+id/dropdown_item"
+    android:id="@+id/dropdown_weight"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:text="TextView"
@@ -12,6 +12,3 @@
     android:maxLines="1"
     android:textAppearance="?attr/textAppearanceSubtitle1"
     xmlns:android="http://schemas.android.com/apk/res/android"/>
-
-
-

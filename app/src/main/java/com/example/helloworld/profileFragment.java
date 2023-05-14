@@ -20,7 +20,7 @@ public class profileFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_profile, container, false);
-        //setContentView(R.layout.activity_profile);
+        //setContentView(R.layout.act activity_profile);
         btn1 = view.findViewById(R.id.Backbutton);
         btn1.setOnClickListener(new View.OnClickListener() { // TODO: reset the bottom menu to home when back button is clicked
             @Override

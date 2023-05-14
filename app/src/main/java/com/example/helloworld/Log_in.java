@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
-public class LogInActivity extends AppCompatActivity {
+public class Log_in extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
