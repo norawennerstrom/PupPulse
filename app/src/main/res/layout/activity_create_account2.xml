@@ -14,6 +14,7 @@
         android:layout_marginTop="2dp"
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="10dp"
+        android:background="@drawable/input"
         app:boxBackgroundColor="#000000"
         app:boxBackgroundMode="outline"
         app:boxCollapsedPaddingTop="10dp"
@@ -26,7 +27,10 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="361dp"
             android:layout_height="54dp"
-            android:hint="Namn" />
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
@@ -52,6 +56,7 @@
         android:layout_marginTop="4dp"
         android:layout_marginEnd="25dp"
         android:layout_marginBottom="16dp"
+        android:background="@drawable/input"
         app:boxBackgroundMode="outline"
         app:layout_constraintBottom_toTopOf="@+id/textView4"
         app:layout_constraintEnd_toEndOf="parent"
@@ -60,8 +65,7 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="361dp"
-            android:layout_height="54dp"
-            android:hint="Hunden namn" />
+            android:layout_height="54dp" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
@@ -74,6 +78,7 @@
         android:text="Din hunds namn:"
         app:layout_constraintBottom_toTopOf="@+id/textInputLayout2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
 
@@ -97,7 +102,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="14dp"
         android:layout_marginBottom="83dp"
+        android:shadowColor="#2196F3"
         android:text="Lägg till hund"
+        android:textColor="#090505"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -111,7 +118,7 @@
         android:layout_marginTop="5dp"
         android:layout_marginEnd="25dp"
         android:layout_marginBottom="18dp"
-        android:hint="Ras"
+        android:background="@drawable/input"
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -125,6 +132,7 @@
         android:layout_marginTop="1dp"
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="8dp"
+        android:background="@drawable/input"
         app:boxBackgroundMode="outline"
         app:boxCollapsedPaddingTop="10dp"
         app:boxStrokeErrorColor="#000000"
@@ -136,8 +144,7 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="361dp"
-            android:layout_height="54dp"
-            android:hint="hint" />
+            android:layout_height="54dp" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
@@ -172,7 +179,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="361dp"
             android:layout_height="54dp"
-            android:hint="hint" />
+            android:background="@drawable/input" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
