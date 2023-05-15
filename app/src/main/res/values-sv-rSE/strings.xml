@@ -22,5 +22,6 @@
     <string name="your_dog_s_weight">Din hunds vikt</string>
     <string name="breed">Din hunds ras</string>
     <string name="add_dog">Lägg till hund</string>
+    <string name="this_week">Den här veckan</string>
 
 </resources>

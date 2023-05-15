@@ -28,7 +28,7 @@ public class statisticsFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_statistics, container, false);
         BarChart barChart = view.findViewById(R.id.barchart);
         getData();
-        BarDataSet barDataSet = new BarDataSet(barArraylist, "This Week");
+        BarDataSet barDataSet = new BarDataSet(barArraylist, getString(R.string.this_week));
         BarData barData = new BarData(barDataSet);
         barChart.setData(barData);
         barDataSet.setColors(ColorTemplate.JOYFUL_COLORS);
