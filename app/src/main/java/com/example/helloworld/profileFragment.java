@@ -15,6 +15,7 @@ public class profileFragment extends Fragment {
 
     Button btn1;
     Button btn2;
+    Button btn3;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -40,6 +41,15 @@ public class profileFragment extends Fragment {
 
             }
 
+        });
+
+        btn3=view.findViewById(R.id.button3);
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(getActivity(), SettingsActivity.class);
+                startActivity(intent);
+            }
         });
 
         return view;
