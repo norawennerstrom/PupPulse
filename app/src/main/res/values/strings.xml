@@ -18,6 +18,9 @@
     <string name="your_dog_s_name">Your dog\'s name</string>
     <string name="your_dog_s_age">Your dog\'s age</string>
     <string name="bpm">/bpm</string>
+    <string name="your_dog_s_weight">Your dog\'s weight</string>
+    <string name="breed">Your dog\'s breed</string>
+    <string name="add_dog">Add dog</string>
 
 
 </resources>

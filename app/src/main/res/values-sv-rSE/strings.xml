@@ -19,4 +19,8 @@
     <string name="your_dog_s_name">Din hunds namn</string>
     <string name="your_dog_s_age">Din hunds ålder</string>
     <string name="bpm">/bpm</string>
+    <string name="your_dog_s_weight">Din hunds vikt</string>
+    <string name="breed">Din hunds ras</string>
+    <string name="add_dog">Lägg till hund</string>
+
 </resources>
