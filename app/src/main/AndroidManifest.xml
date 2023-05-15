@@ -12,16 +12,10 @@
         android:theme="@style/Theme.HelloWorld"
         tools:targetApi="31">
         <activity
-            android:name=".skapakonto"
-            android:exported="false" />
-        <activity
             android:name=".Create_account"
             android:exported="false" />
         <activity
             android:name=".AltLogInActivity"
-            android:exported="false" />
-        <activity
-            android:name=".LogInActivity"
             android:exported="false" />
         <activity
             android:name=".ProfileActivity"

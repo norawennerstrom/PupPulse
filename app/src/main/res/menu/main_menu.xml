@@ -5,9 +5,9 @@
     <item android:title="@string/home"
         android:id="@+id/home_menu_item"
         android:icon="@drawable/home"/>
-    <item android:title="@string/notifications"
+    <!--<item android:title="@string/notifications"
         android:id="@+id/notifications_menu_item"
-        android:icon="@drawable/baseline_notifications_24"/>
+        android:icon="@drawable/baseline_notifications_24"/>-->
     <item android:title="@string/statistics"
         android:id="@+id/statistics_menu_item"
         android:icon="@drawable/statistics"/>

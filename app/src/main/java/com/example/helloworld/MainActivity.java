@@ -43,9 +43,9 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.home_menu_item:
                         getSupportFragmentManager().beginTransaction().replace(R.id.frame_layout, home).commit();
                         return true;
-                    case R.id.notifications_menu_item:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.frame_layout, notifications).commit();
-                        return true;
+                    //case R.id.notifications_menu_item:
+                    //    getSupportFragmentManager().beginTransaction().replace(R.id.frame_layout, notifications).commit();
+                    //    return true;
                     case R.id.profile_menu_item:
                         getSupportFragmentManager().beginTransaction().replace(R.id.frame_layout, profile).commit();
                         return true;
