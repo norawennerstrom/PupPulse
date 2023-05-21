@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Create_account">
+
+    <Button
+        android:id="@+id/btnAddDog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="83dp"
+        android:shadowColor="#2196F3"
+        android:text="@string/add_dog"
+        android:textColor="#090505"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#1D81CC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/skapakonto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="156dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="156dp"
+            android:text="@string/create_account"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <EditText
+        android:id="@+id/edtTxtAccName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="15"
+        android:hint="Your name"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout" />
+
+    <EditText
+        android:id="@+id/edtTxtAccDogName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="15"
+        android:hint="Your dog's name"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/edtTxtAccName"
+        app:layout_constraintStart_toStartOf="@+id/edtTxtAccName"
+        app:layout_constraintTop_toBottomOf="@+id/edtTxtAccName" />
+
+    <EditText
+        android:id="@+id/edtTxtAccAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="15"
+        android:hint="Your dog's age"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/edtTxtAccDogName"
+        app:layout_constraintStart_toStartOf="@+id/edtTxtAccDogName"
+        app:layout_constraintTop_toBottomOf="@+id/edtTxtAccDogName" />
+
+    <EditText
+        android:id="@+id/edtTxtAccWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="15"
+        android:hint="Your dog's weight"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/edtTxtAccAge"
+        app:layout_constraintStart_toStartOf="@+id/edtTxtAccAge"
+        app:layout_constraintTop_toBottomOf="@+id/edtTxtAccAge" />
+
+    <EditText
+        android:id="@+id/edtTxtAccBreed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="15"
+        android:hint="Your dog's breed"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/edtTxtAccWeight"
+        app:layout_constraintStart_toStartOf="@+id/edtTxtAccWeight"
+        app:layout_constraintTop_toBottomOf="@+id/edtTxtAccWeight" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,7 +10,7 @@
         android:id="@+id/txtViewSet"
         android:layout_width="114dp"
         android:layout_height="44dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:fontFamily="casual"
         android:text="Settings"
         android:textSize="24sp"
@@ -20,11 +20,11 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Switch
-        android:id="@+id/swcConnect"
+        android:id="@+id/darkModeSwitch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="Connect"
+        android:text="Dark Mode"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/edtTxtBreed"
         app:layout_constraintStart_toStartOf="@+id/edtTxtBreed"
         app:layout_constraintTop_toBottomOf="@+id/edtTxtBreed" />
@@ -33,7 +33,7 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="5dp"
         app:layout_constraintEnd_toEndOf="@+id/txtViewSet"
         app:layout_constraintStart_toStartOf="@+id/txtViewSet"
         app:layout_constraintTop_toBottomOf="@+id/txtViewSet"
@@ -43,70 +43,96 @@
         android:id="@+id/edtTxtName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:ems="10"
+        android:ems="18"
         android:inputType="text"
-        android:text="Your name"
-        app:layout_constraintEnd_toEndOf="@+id/imageView"
-        app:layout_constraintStart_toStartOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
     <EditText
         android:id="@+id/edtTxtDogName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:ems="10"
+        android:ems="18"
         android:inputType="text"
-        android:text="Your dog's name"
-        app:layout_constraintEnd_toEndOf="@+id/edtTxtName"
-        app:layout_constraintStart_toStartOf="@+id/edtTxtName"
-        app:layout_constraintTop_toBottomOf="@+id/edtTxtName" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
     <EditText
         android:id="@+id/edtTxtDogAge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:ems="10"
+        android:ems="18"
         android:inputType="text"
-        android:text="Your dog's age"
-        app:layout_constraintEnd_toEndOf="@+id/edtTxtDogName"
-        app:layout_constraintStart_toStartOf="@+id/edtTxtDogName"
-        app:layout_constraintTop_toBottomOf="@+id/edtTxtDogName" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
     <EditText
         android:id="@+id/edtTxtDogWeight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:ems="10"
+        android:ems="18"
         android:inputType="text"
-        android:text="Your dog's weight"
-        app:layout_constraintEnd_toEndOf="@+id/edtTxtDogAge"
-        app:layout_constraintStart_toStartOf="@+id/edtTxtDogAge"
-        app:layout_constraintTop_toBottomOf="@+id/edtTxtDogAge" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
     <EditText
         android:id="@+id/edtTxtBreed"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:ems="10"
+        android:layout_marginTop="1dp"
+        android:ems="18"
         android:inputType="text"
-        android:text="Breed"
-        app:layout_constraintEnd_toEndOf="@+id/edtTxtDogWeight"
-        app:layout_constraintStart_toStartOf="@+id/edtTxtDogWeight"
-        app:layout_constraintTop_toBottomOf="@+id/edtTxtDogWeight" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
-    <Button
-        android:id="@+id/btnDelete"
+    <TextView
+        android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Delete account"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/swcConnect"
-        app:layout_constraintStart_toStartOf="@+id/swcConnect"
-        app:layout_constraintTop_toBottomOf="@+id/swcConnect" />
+        android:layout_marginStart="17dp"
+        android:text="Your name:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:text="Your dog's name:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtTxtName" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:text="Your dog's age:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtTxtDogName" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:text="Your dog's weight:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtTxtDogAge" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:text="Your dog's breed:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtTxtDogWeight" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
