@@ -23,5 +23,6 @@
     <string name="breed">Din hunds ras</string>
     <string name="add_dog">Lägg till hund</string>
     <string name="this_week">Den här veckan</string>
+    <string name="dark_mode">Mörkt läge</string>
 
 </resources>

@@ -22,5 +22,6 @@
     <string name="breed">Your dog\'s breed</string>
     <string name="add_dog">Add dog</string>
     <string name="this_week">This week</string>
+    <string name="dark_mode">Dark Mode</string>
 
 </resources>
